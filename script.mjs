@@ -19,7 +19,7 @@ function shuffleArray(array) {
     [array[i], array[j]] = [array[j], array[i]];
   }
   return array;
-} AbortController
+} 
 
 /* Check Answer */
 function checkAnswer(userAnswer, correctAnswer) {
@@ -41,6 +41,8 @@ function quiz(questions, name) {
 
     let answer;
 
+
+    
     if (shuffledQuestions[i].type === "multiple") {
       shuffledQuestions[i].options.forEach((option, index) => {
         console.log(chalk.blue(`${index + 1}. ${option}`));
@@ -88,8 +90,8 @@ function quiz(questions, name) {
 
 /* Display Main Menu */
 displayMenu("Please select from the following options:\n", [
-  "1. Quiz",
-  "2. Guessing Number",
+  "1. Quiz Games",
+  "2. Guessing Games",
   "3. Thrilling Games",
 ]);
 
@@ -259,7 +261,7 @@ if (choice === option1) {
 
 
 else if (choice === option2) {
-  /* Thrilling Games */
+  /* Guessing Games */
   displayMenu("Please select from the following options:", [
     "1. Guess Number",
     "2. Guess Letter",
@@ -657,7 +659,7 @@ function shoppingCart() {
     { type: "hat", color: "red", price: 9 },
     { type: "t-shirt", color: "yellow", price: 19 },
     { type: "t-shirt", color: "red", price: 29 },
-    { type: "jeans", color: "blue", price: 19 },
+    { type: "jeans", color: "white", price: 19 },
     { type: "shirt", color: "yellow", price: 19 },
     { type: "shoes", color: "green", price: 49 },
     { type: "sandals", color: "brown", price: 12 },
