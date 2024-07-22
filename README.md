@@ -11,8 +11,9 @@ Upon starting, you will be greeted with the main menu with the following options
     - Quiz Related to Books
     - General Knowledge
 
-- **2. Guessing Number**
+- **2. Guessing Number and Guessing Letter**
   - Guess a number between 1 and 100 with up to 3 attempts.
+  - Guess a missing letter from Tourists places names .
 
 - **3. Thrilling Games**
   - Choose between:
@@ -72,11 +73,12 @@ After winning, you can spend your prize money on various items:
 
 ## Note
 - One more thing , we use  mjs for ECMAScript Modules in Node.js signifies adoption of modern JavaScript practices and helps distinguish them from CommonJS modules. It's particularly useful for clarity and future compatibility as Node.js continues to evolve its support for ES Modules.
+  
 ## Contact
 
-For any questions or feedback, please contact alirauf368@gmail.com.
+For any questions or feedback, please contact 
+# alirauf368@gmail.com.
 
-Enjoy your time at the Multitalent Forum!
-
+# Enjoy your time at the Multitalent Forum!
 
 # Viel Spass!
