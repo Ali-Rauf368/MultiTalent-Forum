@@ -12,8 +12,9 @@ Upon starting, you will be greeted with the main menu with the following options
     - General Knowledge
 
 - **2. Guessing Number and Guessing Letter**
-  - Guess a number between 1 and 100 with up to 3 attempts.
-  - Guess a missing letter from Tourists places names .
+   - Choose between:
+    - Guess a number between 1 and 100 with up to 3 attempts
+    - Guess a missing letter from famous Tourists places names
 
 - **3. Thrilling Games**
   - Choose between:
